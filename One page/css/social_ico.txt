@@ -1,0 +1,23 @@
+.social_ico {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social_ico-soc-ico-mail {
+    width: 29px;
+    height: 23px;
+    background-position: -5px -5px;
+}
+
+.social_ico-soc-ico-map {
+    width: 27px;
+    height: 27px;
+    background-position: -44px -5px;
+}
+
+.social_ico-soc-ico-tel {
+    width: 23px;
+    height: 23px;
+    background-position: -81px -5px;
+}

@@ -1,0 +1,125 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.top_contacts{
+		right: -20px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.about .ipad{
+		width: 100%;
+	}
+	.team .team_block{
+		padding-bottom: 100px;
+	}
+	.contact .contact_block ul .tel_ico {
+    	top: 172px;
+	}
+	.contact .contact_block ul .mail_ico {
+    	top: 267px;
+	}
+	.contact .contact_block ul .map_ico {
+    	top: 354px;
+	}
+	.top_contacts{
+		right: 0px;
+	}
+	.next{
+		top: 890px;
+		left: 245px;
+	}
+	.prev{
+		top: 890px;
+		left: 182px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.contact .contact_block ul .tel_ico {
+    	top: 198px;
+	}
+	.contact .contact_block ul .mail_ico {
+    	top: 300px;
+	}
+	.contact .contact_block ul .map_ico {
+    	top: 384px;
+	}
+	.next{
+		top: 890px;
+		left: 126px;
+	}
+	.prev{
+		top: 890px;
+		left: 61px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.contact .contact_block ul .tel_ico {
+    	top: 198px;
+	}
+	.contact .contact_block ul .mail_ico {
+    	top: 300px;
+	}
+	.contact .contact_block ul .map_ico {
+    	top: 384px;
+	}
+
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	.team .team_block{
+		padding-bottom: 100px;
+	}
+	.contact .contact_block ul .tel_ico {
+    	top: 172px;
+	}
+	.contact .contact_block ul .mail_ico {
+    	top: 267px;
+	}
+	.contact .contact_block ul .map_ico {
+    	top: 354px;
+	}
+	.next{
+		top: 890px;
+		left: 245px;
+	}
+	.prev{
+		top: 890px;
+		left: 182px;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}

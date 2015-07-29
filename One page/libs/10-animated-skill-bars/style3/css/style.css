@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,300,100,100italic,400italic,700,700italic,900,900italic);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+:focus {
+	outline: 0;
+}
+a:focus {
+	outline: 0;
+	text-decoration: none;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+
+.wraper{
+	width:470px;
+	margin:50px auto;
+}
+
+.wraper:before,
+.wraper:after {
+  display: table;
+  content: " ";
+}
+
+.wraper:after{
+  clear: both;
+}
+
+
+/* Skills Style 3 */
+
+.skillst3{
+	width:100%;
+	color:#fff;
+}
+.skillst3 .skillbar{
+	width: 100%;
+	height: 40px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: #dedddb;
+	margin-bottom:30px;
+	margin-top:45px;
+	box-sizing:border-box;
+	padding:5px;
+	position:relative;
+}
+.skillst3 .skill-info{
+	position:absolute;
+	height:25px;
+	top:-25px;
+	left:0;
+	padding-left:5px;
+}
+.skillst3 .skill-info div{
+	display:inline-block;
+	line-height:25px;
+}
+.skillst3 .skillbarin{
+	background: url("../images/stripe-2.png");
+	position:relative;
+	height: 30px;
+}
+.skillst3 .skill-info.color-1{
+	color:#0376ad;
+}
+.skillst3 .count-bar{
+	width:0px;
+}
+.skillst3 .count-bar.color-1{
+	background: url("../images/stripe-s31.png");
+	height: 30px;
+}
+.skillst3 .skill-info.color-2{
+	color:#da500e;
+}
+.skillst3 .count-bar.color-2{
+	background: url("../images/stripe-s32.png");
+	height: 30px;
+}
+.skillst3 .skill-info.color-3{
+	color:#a84ba7;
+}
+.skillst3 .count-bar.color-3{
+	background: url("../images/stripe-s33.png");
+	height: 30px;
+}
+.skillst3 .skill-info.color-4{
+	color:#7f9f04;
+}
+.skillst3 .count-bar.color-4{
+	background: url("../images/stripe-s34.png");
+	height: 30px;
+}
+
+/*Coustom Media Query Css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
+	
+}
